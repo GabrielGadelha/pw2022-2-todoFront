@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import api from '../services/api';
+
 import './style.css'
 
 function Form(props) {
@@ -14,9 +14,7 @@ function Form(props) {
           setTask("");
         }
       
-        const insert = {
-            todo: task,
-        }
+       
     
        
     }
